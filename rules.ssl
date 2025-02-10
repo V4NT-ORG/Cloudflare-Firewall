@@ -13,7 +13,7 @@ Not SSL ! (But ADD)
 _______________________________________________________
 
 Firewall > Settings > Browser Integrity Check > ON
-Firewall > Settings > Privacypass Support > OFF
+Firewall > Settings > Privacypass Support > ON
 ---------------------------------------------------
 Firewall > Tools > User Agent Blocking > Create Blocking Rule (8 User-Agents)
  
