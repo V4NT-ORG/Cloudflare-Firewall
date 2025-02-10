@@ -22,6 +22,29 @@ Cloudflare Firewall is a powerful tool for protecting your website from potentia
 To get started with Cloudflare Firewall, you need to sign up for a Cloudflare account and add your website. Follow the instructions on the Cloudflare dashboard to set up your firewall.
 
 ## Firewall Rules
+Rule Name | File Name | Action | What For
+---- | ---- | ---- | ----
+General | [rules.ssl](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/rules.ssl) | Manually Add | Peformance, User Experience, DDOS Protection, Crawlers<br>
+Common Country | [common-country.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/common-country.rules) | Block | Only Allow Country's Who Won't Pass Much Malicous Traffic.<br>
+Bad ASN List | [bad-asn.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/bad-asn.rules) | Block | Block Bad ASN List Of Most Known Proxyscraping Sites.<br>
+Threat Score | [threatscore.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/threatscore.rules) | Block | Block Bad Threats Flagged By Cloudflare<br>
+Request Method | [request-method.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/request-method.rules) | Block | Block POST & HEAD Request's Only Allow GET Request's Unless Needed.<br>
+User Agents | [user-agents.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/user-agents.rules) | Block | Block Known User-Agents <br>
+mTLS-enforced authentication | [mTLS-enforced.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/mTLS-enforced.rules) | Block | Block requests from devices without a valid known client SSL/TLS certificate. <br>
+Zone lockdown | [zone-lockdown.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/zone-lockdown.rules) | Block | Allow only specific IP addresses to access certain URLs such as an admin or protected area on your website. <br>
+Expressions | [expressions.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/expressions.rules) | Block | This Expressions are highly recommended for Node.js applications based on frameworks like Express. <br>
+Expressions 2 | [expressions2.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/expressions2.rules) | Block | This Expressions are highly recommended for Node.js applications based on frameworks like Express. <br>
+
+## Cloudflare Dashboard Examples v1 (OLD): 
+![](https://media.discordapp.net/attachments/819747919581675530/829677841292460042/unknown.png) 
+![](https://media.discordapp.net/attachments/819747919581675530/829678093706592276/unknown.png) 
+![](https://media.discordapp.net/attachments/819747919581675530/829678478278000650/unknown.png) 
+![](https://media.discordapp.net/attachments/819747919581675530/829678903131897906/unknown.png) 
+
+## Cloudflare Dashboard Examples v2: 
+```
+
+```
 
 ### Free Plan
 
@@ -37,6 +60,19 @@ Follow these best practices to ensure your website remains secure:
 - Regularly update your firewall rules.
 - Monitor your website traffic for suspicious activities.
 - Use multi-factor authentication for your Cloudflare account.
+
+## Sources
+
+-   [NexusGuard.com Thread Report 2018](https://www.nexusguard.com/hubfs/2019%20PTC/Nexusguard_Q3%202018%20Threat%20Report.pdf)
+-   [CloudFlare DDoS Trends 2021](https://blog.cloudflare.com/ddos-attack-trends-for-2021-q2/)
+-   [Bad ASNS List](https://github.com/brianhama/bad-asn-list/blob/master/bad-asn-list.csv)
+-   [Archive Site Removal Guide](https://blog.reputationx.com/block-wayback-machine)
+
+# Rumors
+
+### ⚠️ Cloudflare now requires Photo ID via Stripe ⚠️
+![](https://raw.githubusercontent.com/WhateverItWorks/Cloudflare-Firewall/main/screenshots/1.jpg)
+![](https://raw.githubusercontent.com/WhateverItWorks/Cloudflare-Firewall/main/screenshots/2.jpg)
 
 ## Contributing
 
