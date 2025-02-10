@@ -1,1 +1,1 @@
-(not cf.tls_client_auth.cert_verified and http.request.uri.path in {"whateveritworks.org"})
+(not cf.tls_client_auth.cert_verified and http.request.uri.path in {"enter your domains here"})
