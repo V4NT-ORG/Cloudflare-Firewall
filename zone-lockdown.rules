@@ -1,1 +1,1 @@
-(ip.src in $abuseipdb and http.request.uri.path in {"whateveritworks.org"})
+(ip.src in $abuseipdb and http.request.uri.path in {"enter your domains here"})
