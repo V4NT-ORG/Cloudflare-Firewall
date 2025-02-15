@@ -1,5 +1,5 @@
-# Cloudflare.com-IoT-ufw
-Block all IoT Scrapers from Exposing your IP Address Behind NOC.org.
+# Cloudflare IoT Firewall
+Block all IoT Scrapers from Exposing your IP Address Behind Cloudflare.
 
 ### Setup
 Assuming that you already have ufw installed (now a pre-installed package in most linux distros), firstly ensure that ufw is not enabled;
