@@ -10,6 +10,7 @@ This repository offers an in-depth guide to securing your website using Cloudfla
   - [Free Plan](#free-plan)
   - [Pro Plan](#pro-plan)
 - [Best Practices](#best-practices)
+- [Other Resources](#other-resources)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -60,6 +61,10 @@ Follow these best practices to ensure your website remains secure:
 - Regularly update your firewall rules.
 - Monitor your website traffic for suspicious activities.
 - Use multi-factor authentication for your Cloudflare account.
+
+## Other Resources
+
+- [Hetzner Cloud: Cloudflare Workers Firewall](https://github.com/Erisa/hetzner-firewall-cfworker)
 
 ## Sources
 
