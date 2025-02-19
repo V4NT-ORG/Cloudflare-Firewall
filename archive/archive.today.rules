@@ -1,0 +1,2 @@
+(ip.src in {198.245.53.182 37.1.213.27 5.188.0.77 89.38.210.19}) 
+&& (http.request.uri contains "favicon.ico" || http.request.uri contains "robots.txt")
