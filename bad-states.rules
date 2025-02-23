@@ -1,0 +1,21 @@
+(ip.geo.country eq "US" and ip.geo.region in {
+  "CA"  # California
+  "NY"  # New York
+  "IL"  # Illinois
+  "CO"  # Colorado
+  "MI"  # Michigan
+  "NJ"  # New Jersey
+  "OR"  # Oregon
+  "WA"  # Washington
+  "MN"  # Minnesota
+  "NM"  # New Mexico
+  "PA"  # Pennsylvania
+  "WI"  # Wisconsin
+  "ME"  # Maine
+  "CT"  # Connecticut
+  "RI"  # Rhode Island
+  "DE"  # Delaware
+  "MD"  # Maryland
+  "MA"  # Massachusetts
+  "VI"  # U.S. Virgin Islands (territory)
+})
