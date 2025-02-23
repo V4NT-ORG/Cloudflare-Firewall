@@ -1,1 +1,1 @@
-(ip.geoip.country in {"AF" "AR" "AU" "BR" "CA" "CN" "FR" "IN" "IR" "IQ" "KP" "MX" "MA" "NZ" "NG" "RU" "TT" "TR" "GB" "XX" "DE"})
+(ip.geoip.country in {"AF" "AR" "AU" "BR" "CA" "CN" "FR" "DE" "IN" "IR" "IQ" "KP" "MX" "MA" "NZ" "NG" "RU" "TT" "TR" "UA" "GB" "XX" "T1"})
