@@ -1,1 +1,1 @@
-(cf.threat_score gt 14) or (cf.bot_management.score lt 25)
+(cf.threat_score gt 60) or (cf.client.bot)
