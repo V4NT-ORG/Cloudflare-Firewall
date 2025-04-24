@@ -1,1 +1,0 @@
-(cf.threat_score gt 60) or (cf.client.bot)
