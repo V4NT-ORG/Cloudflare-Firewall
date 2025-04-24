@@ -28,7 +28,6 @@ Rule Name | File Name | Action | What For
 General | [rules.ssl](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/rules.ssl) | Manually Add | Peformance, User Experience, DDOS Protection, Crawlers<br>
 Common Country | [common-country.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/common-country.rules) | Block | Only Allow Country's Who Won't Pass Much Malicous Traffic.<br>
 Bad ASN List | [bad-asn.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/bad-asn.rules) | Block | Block Bad ASN List Of Most Known Proxyscraping Sites.<br>
-Threat Score | [threatscore.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/threatscore.rules) | Block | Block Bad Threats Flagged By Cloudflare<br>
 Request Method | [request-method.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/request-method.rules) | Block | Block POST & HEAD Request's Only Allow GET Request's Unless Needed.<br>
 User Agents | [user-agents.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/user-agents.rules) | Block | Block Known User-Agents <br>
 mTLS-enforced authentication | [mTLS-enforced.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/mTLS-enforced.rules) | Block | Block requests from devices without a valid known client SSL/TLS certificate. <br>
