@@ -1,0 +1,1 @@
+(http.referer eq "coccoc.com") or (http.referer eq "go.mail.ru") or (http.referer eq "funnymama.com") or (http.referer eq "anonymouse.org") or (http.referer eq "filehippo.com") or (http.referer eq "engadget.search.aol.com") or (http.referer eq "help.baidu.com") or (http.referer eq "ddosvn.somee.com") 
