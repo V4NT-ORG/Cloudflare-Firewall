@@ -36,10 +36,10 @@ Expressions | [expressions.rules](https://github.com/WhateverItWorks/Cloudflare-
 Expressions 2 | [expressions2.rules](https://github.com/WhateverItWorks/Cloudflare-Firewall/blob/main/expressions2.rules) | Block | This Expressions are highly recommended for Node.js applications based on frameworks like Express. <br>
 
 ## Cloudflare Dashboard Examples v1 (OLD): 
-![](https://media.discordapp.net/attachments/819747919581675530/829677841292460042/unknown.png) 
-![](https://media.discordapp.net/attachments/819747919581675530/829678093706592276/unknown.png) 
-![](https://media.discordapp.net/attachments/819747919581675530/829678478278000650/unknown.png) 
-![](https://media.discordapp.net/attachments/819747919581675530/829678903131897906/unknown.png) 
+![](https://files.catbox.moe/8q6rbc.png) 
+![](https://files.catbox.moe/ummjb7.png)
+![](https://files.catbox.moe/i5uxjj.png)
+![](https://files.catbox.moe/t396u6.png) 
 
 ## Cloudflare Dashboard Examples v2: 
 ```
