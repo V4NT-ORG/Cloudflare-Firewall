@@ -1,8 +1,0 @@
-# .htaccess (Apache 2.4+ syntax)
-<RequireAll>
-    Require all granted
-    Require not ip 198.245.53.182
-    Require not ip 37.1.213.27
-    Require not ip 5.188.0.77
-    Require not ip 89.38.210.19  # New observed IP
-</RequireAll>
