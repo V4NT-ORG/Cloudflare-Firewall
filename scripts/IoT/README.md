@@ -54,7 +54,6 @@ and add the event;
 
 ```0 0 * * 1 /your/path/cloudflare-IoT-ufw/cloudflare-IoT-ufw.sh > /dev/null 2>&1```
 
-### Contributing on AbuseIPDB
-<a href="https://www.abuseipdb.com/user/118422" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks">
-	<img src="https://www.abuseipdb.com/contributor/118422.svg" alt="AbuseIPDB Contributor Badge" style="width: 401px;">
-</a>
+### Credits
+
+This concept was developed me. 
